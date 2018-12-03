@@ -11,7 +11,7 @@ Robust PCA based on Principal Component Pursuit (**RPCA-PCP**) is the most popul
 
 where ||.||_* is a nuclear norm, ||.||_1 is L1-norm. 
 
-See the [paper for details](https://arxiv.org/abs/1702.05698)
+Please see the [paper](https://arxiv.org/abs/1702.05698) for details.
 
 ### What is inside?
 Folder **rpca** contains various batch and online Robust PCA algorithms.
@@ -30,7 +30,7 @@ Folder **rpca** contains various batch and online Robust PCA algorithms.
 
 Folder **simulation** contains code to reproduce all simulation studies of the paper Xiao, Wei, et al. "Online Robust Principal Component Analysis with Change Point Detection" arXiv (2017).
 
-Folder **example/survillance** contains ipython notebooks to apply the online rpca algorithms for real-world video survillance data (separating foreground from background in the video). Before running the corresponding ipython notebooks, please first download the video data from <http://perception.i2r.a-star.edu.sg/bk_model/bk_index.html>.
+Folder **example/survillance** contains ipython notebooks to apply the online rpca algorithms for real-world video survillance data (separating foreground from background in the video). Before running the corresponding ipython notebooks, please first download the video data from the [Perception Test Images Sequences](http://vis-www.cs.umass.edu/~narayana/castanza/I2Rdataset/) of the [Background Subtraction Website](https://sites.google.com/site/backgroundsubtraction/test-sequences/human-activities).
 
 ### Citation
 If you use this package in any way, please cite the following preprint.
