@@ -1,7 +1,7 @@
 Online Robust PCA
 =================
 
-Batch and Online Robust PCA (Robust Principal Component Analysis) implementation and examples (Python).
+Batch and Online Robust PCA (Robust Principal Component Analysis) implementation and examples (Python). A translation to matlab is available at this [github repository](https://github.com/wxiao0421/onlineRPCA-matlab).
 
 Robust PCA based on Principal Component Pursuit (**RPCA-PCP**) is the most popular RPCA algorithm which decomposes the observed matrix M into a low-rank matrix L and a sparse matrix S by solving Principal Component Pursuit:
 
@@ -11,7 +11,7 @@ Robust PCA based on Principal Component Pursuit (**RPCA-PCP**) is the most popul
 
 where ||.||_* is a nuclear norm, ||.||_1 is L1-norm. 
 
-Please see the [paper](https://arxiv.org/abs/1702.05698) for details.
+Please see the [paper](https://ieeexplore.ieee.org/abstract/document/8736886)[[arxiv](https://arxiv.org/abs/1702.05698)] for details.
 
 ### What is inside?
 Folder **rpca** contains various batch and online Robust PCA algorithms.
@@ -35,15 +35,18 @@ Folder **example/survillance** contains ipython notebooks to apply the online rp
 ### Citation
 If you use this package in any way, please cite the following preprint.
 ```
-@article{xiao2017online,
+@article{xiao2019onlineRPCA,
   title={Online Robust Principal Component Analysis with Change Point Detection},
-  author={Xiao, Wei and Huang, Xiaolin and Silva, Jorge and Emrani, Saba and Chaudhuri, Arin},
-  journal={arXiv preprint arXiv:1702.05698},
-  year={2017}
+  author={W. {Xiao} and X. {Huang} and F. {He} and J. {Silva} and S. {Emrani} and A. {Chaudhuri}},
+  journal={IEEE Transactions on Multimedia},
+  year={2019}
 }
 ```
 
+### Author
+Wei Xiao
+
 ### Contacts
-Wei Xiao <wxiao0421@gmail.com>        
+Wei Xiao (<wxiao0421@gmail.com>)        
 
 
