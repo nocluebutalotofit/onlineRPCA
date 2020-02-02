@@ -47,6 +47,6 @@ If you use this package in any way, please cite the following preprint.
 Wei Xiao
 
 ### Contacts
-Wei Xiao (<wxiao0421@gmail.com>)        
+Wei Xiao (<wxiao@ncsu.edu>)        
 
 
