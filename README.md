@@ -33,7 +33,6 @@ Folder **simulation** contains code to reproduce all simulation studies of the p
 Folder **example/survillance** contains ipython notebooks to apply the online rpca algorithms for real-world video survillance data (separating foreground from background in the video). Before running the corresponding ipython notebooks, please first download the video data from the [Perception Test Images Sequences](http://vis-www.cs.umass.edu/~narayana/castanza/I2Rdataset/) of the [Background Subtraction Website](https://sites.google.com/site/backgroundsubtraction/test-sequences/human-activities).
 
 ### Citation
-If you use this package in any way, please cite the following preprint.
 ```
 @article{xiao2019onlineRPCA,
   title={Online Robust Principal Component Analysis with Change Point Detection},
