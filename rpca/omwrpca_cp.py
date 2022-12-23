@@ -63,7 +63,7 @@ def omwrpca_cp(M, burnin, win_size, track_cp_burnin, n_check_cp, alpha, proporti
     # parameter setting
     assert burnin >= win_size, "Parameter burin should be larger than or equal to parameter win_size."
     if n < burnin:
-        print "Parameter burin should be less than or equal to the number of columns of input matrix. Program stops."
+        print("Parameter burin should be less than or equal to the number of columns of input matrix. Program stops.")
         return np.empty((m,0)), np.empty((m,0)), [], [], []
     if np.isnan(lambda1):
         lambda1 = 1.0/np.sqrt(m)
